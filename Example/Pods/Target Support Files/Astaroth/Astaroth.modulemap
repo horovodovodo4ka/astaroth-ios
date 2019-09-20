@@ -1,0 +1,6 @@
+framework module Astaroth {
+  umbrella header "Astaroth-umbrella.h"
+
+  export *
+  module * { export * }
+}

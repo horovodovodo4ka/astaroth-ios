@@ -7,14 +7,17 @@
 //
 
 import UIKit
+import Astaroth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        Log.addLoggers(ConsoleLogger())
+        Log.d("\nTest!\n")
+        Log.e("AAAA!!!!")
         // Override point for customization after application launch.
         return true
     }

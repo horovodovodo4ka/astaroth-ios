@@ -1,0 +1,22 @@
+{
+  "name": "Astaroth",
+  "version": "0.1.0",
+  "summary": "Logging library",
+  "homepage": "https://github.com/horovodovodo4ka/Astaroth",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "horovodovodo4ka": "xbitstream@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/horovodovodo4ka/Astaroth.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "tvos": "9.0"
+  },
+  "source_files": "Astaroth/Classes/**/*"
+}
