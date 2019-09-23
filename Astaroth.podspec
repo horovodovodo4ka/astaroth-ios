@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Astaroth'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Logging library'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = '4.2'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
 
   s.source_files = 'Astaroth/Classes/**/*'

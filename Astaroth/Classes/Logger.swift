@@ -46,7 +46,8 @@ public struct LoggerConfig {
     /// $message - replaced with message itself
     ///
     /// Default is " $message "
-    public var contextFormat: String? //= "\n$place @ ($context)\n$message\n"
+    /// Example: "\n$place @ ($context)\n$message\n"
+    public var contextFormat: String?
 }
 
 public protocol Logger: AnyObject {
