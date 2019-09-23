@@ -22,19 +22,21 @@ func errorLevelSign(_ level: LogLevel) -> String {
 }
 
 public class ConsoleLogger: Logger {
-    public init() {
+    public init(config: LoggerConfig = LoggerConfig()) {
+        self.config = config
     }
 
     public var levelSign: (LogLevel) -> String = errorLevelSign
 
-    public var config = LoggerConfig()
+    public var config: LoggerConfig
 
-    public func log(_ lazyMessage: Lazy<Any>, level: LogLevel, type: LogType) {
+    public func log(_ lazyMessage: Lazy<Any>, level: LogLevel, type: LogType, _ context: StackTraceElement?) {
         if !isAbleToLog(level: level, type: type) { return }
 
         let tag = type.logTag
         let systemLevel = levelSign(level)
+        let message = config.format(lazyMessage.value, context)
 
-        print("\(systemLevel)[\(tag)]\(lazyMessage.value)\(systemLevel)")
+        print("\(systemLevel)[\(tag)]\(message)\(systemLevel)")
     }
 }

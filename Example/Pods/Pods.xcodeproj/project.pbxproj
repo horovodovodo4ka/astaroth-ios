@@ -41,20 +41,20 @@
 /* Begin PBXFileReference section */
 		096DB22081E9868A45644F72F5B11C0C /* Astaroth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Astaroth-prefix.pch"; sourceTree = "<group>"; };
 		0A835FF20EF22E38F9B9BC4555DF0EFE /* Pods-Astaroth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Astaroth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11F40197F71E6E422065265BB573F826 /* Pods_Astaroth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astaroth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F40197F71E6E422065265BB573F826 /* Pods_Astaroth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Astaroth_Tests.framework; path = "Pods-Astaroth_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE1AA95171F6A8089DC7EB370434BC5 /* Pods-Astaroth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Astaroth_Example-dummy.m"; sourceTree = "<group>"; };
 		2F31A5362C5370287BB2062603C70742 /* Pods-Astaroth_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Astaroth_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2F86ED5A718052B070A7E463BACE9DA8 /* Astaroth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Astaroth-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A43AC3BB751B72F5107AF21325DD199 /* Astaroth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Astaroth-umbrella.h"; sourceTree = "<group>"; };
-		3B66D2D358468A934897838B7FA011D4 /* Astaroth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Astaroth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BB2E9809BA62B55F49FBD670BDE4BCB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B66D2D358468A934897838B7FA011D4 /* Astaroth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Astaroth.framework; path = Astaroth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB2E9809BA62B55F49FBD670BDE4BCB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		45DFEDE84DBDAD25B6EB9AFB95C79B36 /* Pods-Astaroth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Astaroth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48C2DF7E2912FE3E734A0269AA999D6C /* Pods-Astaroth_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Astaroth_Example-Info.plist"; sourceTree = "<group>"; };
 		53465D9D1853C33FA98EC81C3E675FB2 /* Pods-Astaroth_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Astaroth_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C8DC354C83D72619F13DA1BE384784A /* Pods-Astaroth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astaroth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E71086B9A1CC1B102B7D7D93588E188 /* Pods-Astaroth_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Astaroth_Example.modulemap"; sourceTree = "<group>"; };
-		6AA260DD558EFA7CCA2B8FEFC010B0A5 /* Astaroth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Astaroth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6AA260DD558EFA7CCA2B8FEFC010B0A5 /* Astaroth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Astaroth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B0345E671DEE04B7F59A85F855D0C31 /* Pods-Astaroth_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Astaroth_Tests-Info.plist"; sourceTree = "<group>"; };
 		73BDF2949E7177FCD545F40DB8F05DB9 /* Astaroth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Astaroth-dummy.m"; sourceTree = "<group>"; };
 		819739A4F8477E93A9B8F2B148DB7AAF /* Pods-Astaroth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Astaroth_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -63,14 +63,14 @@
 		94D871339F2316062A138A20DAD95D10 /* Astaroth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Astaroth.xcconfig; sourceTree = "<group>"; };
 		96DB362B3FC8397C56D86DA8240035CB /* Default.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Default.swift; path = Astaroth/Classes/Default.swift; sourceTree = "<group>"; };
 		9AFD30C85AD1D57C7E3CA1BE73596A3C /* Astaroth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Astaroth.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3ACAC15ED9F0362DF51ED378AD783F8 /* Pods-Astaroth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Astaroth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C192F245E64358E83943590A12A62903 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C192F245E64358E83943590A12A62903 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C39AF3B46DFBC8442978279E2372FCF8 /* Pods-Astaroth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astaroth_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C48660A8B14167E033F6233FDC206046 /* Pods-Astaroth_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Astaroth_Tests-dummy.m"; sourceTree = "<group>"; };
 		CAD171D6EA8DF465B13BCF19F208320B /* Pods-Astaroth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astaroth_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD8A8AF98220B8C40A4EB57A47F55A39 /* Pods-Astaroth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astaroth_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D4D952347A77F735A54E4ED2F1245DCE /* Pods_Astaroth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astaroth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D952347A77F735A54E4ED2F1245DCE /* Pods_Astaroth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Astaroth_Example.framework; path = "Pods-Astaroth_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5BF5348362012D3AB8DA312F4B495F /* Pods-Astaroth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Astaroth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC811A83A69617CB67143AA70E570684 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Astaroth/Classes/Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -445,7 +445,7 @@
 			};
 			name = Release;
 		};
-		62E1EA9A0F1D0040A80782DB8A961D39 /* Release */ = {
+		54351893C8BD848F07EA468B731801EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94D871339F2316062A138A20DAD95D10 /* Astaroth.xcconfig */;
 			buildSettings = {
@@ -469,7 +469,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -538,6 +538,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0A0C5DEE8A6A563267680C1345EB29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D871339F2316062A138A20DAD95D10 /* Astaroth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Astaroth/Astaroth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Astaroth/Astaroth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Astaroth/Astaroth.modulemap";
+				PRODUCT_MODULE_NAME = Astaroth;
+				PRODUCT_NAME = Astaroth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -630,7 +661,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -700,37 +732,6 @@
 			};
 			name = Debug;
 		};
-		E8E32E52CDE83D145A50E03C60B9806C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94D871339F2316062A138A20DAD95D10 /* Astaroth.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Astaroth/Astaroth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Astaroth/Astaroth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Astaroth/Astaroth.modulemap";
-				PRODUCT_MODULE_NAME = Astaroth;
-				PRODUCT_NAME = Astaroth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -755,8 +756,8 @@
 		697C5DDCD8F99A3C88B72477E2D8B87E /* Build configuration list for PBXNativeTarget "Astaroth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8E32E52CDE83D145A50E03C60B9806C /* Debug */,
-				62E1EA9A0F1D0040A80782DB8A961D39 /* Release */,
+				A0A0C5DEE8A6A563267680C1345EB29E /* Debug */,
+				54351893C8BD848F07EA468B731801EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
