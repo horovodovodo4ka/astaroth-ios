@@ -4,11 +4,15 @@
 
 import Foundation
 
-private class DefaultTag: LogType {
-    private(set) var logTag: String = "+"
+public class StringTag : LogType {
+    public let logTag : String
+
+    public init(_ tag: String) {
+        self.logTag = tag
+    }
 }
 
-let Default: LogType = DefaultTag()
+let Default: LogType = StringTag("+")
 
 public extension Logger {
     func v(_ message: @autoclosure @escaping () -> Any, file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) {
