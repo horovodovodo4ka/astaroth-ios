@@ -78,9 +78,6 @@ public struct StackTraceElement {
     }
 }
 
-infix operator +=
-infix operator -=
-
 public class Log_: Logger {
     fileprivate init() {
     }
