@@ -23,7 +23,7 @@ public extension LogType {
 
 public class Lazy<T> {
     private let valueProducer: () -> T
-    lazy var value: T = valueProducer()
+    public private(set) lazy var value: T = valueProducer()
 
     fileprivate init(_ producer: @escaping () -> T) {
         self.valueProducer = producer
@@ -123,7 +123,7 @@ public class Log_: Logger {
 
 public let Log: Log_ = Log_()
 
-extension LoggerConfig {
+public extension LoggerConfig {
     func format(_ message: Any, _ traceElement: StackTraceElement?) -> Any {
         var format = self.format
 
