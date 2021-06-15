@@ -1,5 +1,5 @@
 PODS:
-  - Astaroth (0.3.2)
+  - Astaroth (0.4.0)
 
 DEPENDENCIES:
   - Astaroth (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Astaroth: aa0ba72cffefe71600457b759594bcdbd325fa20
+  Astaroth: 790051af690be95a47423ffd20bd32c3a4332dc2
 
 PODFILE CHECKSUM: 082935c6781b8959e85761473d7ae2767af7e3c3
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
