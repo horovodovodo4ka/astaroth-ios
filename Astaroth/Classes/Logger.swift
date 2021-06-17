@@ -68,19 +68,19 @@ public extension Logger {
 }
 
 public struct StackTraceElement {
-    public let filename: StaticString
-    public let method: StaticString
+    public let filename: String
+    public let method: String
     public let line: UInt
     public let column: UInt
 
-    public init(filename: StaticString, method: StaticString, line: UInt, column: UInt) {
+    public init(filename: String, method: String, line: UInt, column: UInt) {
         self.filename = filename
         self.method = method
         self.line = line
         self.column = column
     }
 
-    public static func here(file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) -> StackTraceElement {
+    public static func here(file: String = #file, method: String = #function, line: UInt = #line, column: UInt = #column) -> StackTraceElement {
         return StackTraceElement(filename: file, method: method, line: line, column: column)
     }
     
@@ -179,27 +179,27 @@ public extension Logger {
         log(lazyMessage, level: .whatTheFuck, type: type, trace: context)
     }
 
-    func v(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) {
+    func v(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: String = #file, method: String = #function, line: UInt = #line, column: UInt = #column) {
         v(type, lazyMessage, StackTraceElement(filename: file, method: method, line: line, column: column))
     }
 
-    func d(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) {
+    func d(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: String = #file, method: String = #function, line: UInt = #line, column: UInt = #column) {
         d(type, lazyMessage, StackTraceElement(filename: file, method: method, line: line, column: column))
     }
 
-    func i(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) {
+    func i(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: String = #file, method: String = #function, line: UInt = #line, column: UInt = #column) {
         i(type, lazyMessage, StackTraceElement(filename: file, method: method, line: line, column: column))
     }
 
-    func w(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) {
+    func w(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: String = #file, method: String = #function, line: UInt = #line, column: UInt = #column) {
         w(type, lazyMessage, StackTraceElement(filename: file, method: method, line: line, column: column))
     }
 
-    func e(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) {
+    func e(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: String = #file, method: String = #function, line: UInt = #line, column: UInt = #column) {
         e(type, lazyMessage, StackTraceElement(filename: file, method: method, line: line, column: column))
     }
 
-    func wtf(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: StaticString = #file, method: StaticString = #function, line: UInt = #line, column: UInt = #column) {
+    func wtf(_ type: LogType, _ lazyMessage: @autoclosure @escaping () -> Any, file: String = #file, method: String = #function, line: UInt = #line, column: UInt = #column) {
         wtf(type, lazyMessage, StackTraceElement(filename: file, method: method, line: line, column: column))
     }
 }
