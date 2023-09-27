@@ -5,13 +5,15 @@ import PackageDescription
 let package = Package(
     name: "Astaroth-iOS",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v11),
+        .tvOS(.v11)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Astaroth",
-            targets: ["Astaroth"]),
+            targets: ["Astaroth"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
